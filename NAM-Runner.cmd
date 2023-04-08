@@ -243,6 +243,7 @@ echo Done.
 echo Done.> installed.txt
 echo Local NAM modelling environment installed.
 call .\mynamenv\Scripts\deactivate.bat
+cd..
 :STARTNAM
 echo Starting NAM GUI.
 cd neural-amp-modeler-0.5.0
