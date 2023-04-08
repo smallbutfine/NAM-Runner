@@ -20,7 +20,7 @@ No deeper knowledge required.
 
 Deinstallation: Just delete the folder. That's it.
 
-A huge THANK YOU to Steve Ack, who programmed NAM, and the helpful and generous NAM community on Facebook and Discord.
+A huge THANK YOU to Steven Atkinson, who programmed NAM, and the helpful and generous NAM community on Facebook and Discord.in
 Have fun!
 
 #nam #neural-amp-modeler #guitar #amp #modelling #easy #neural #network #bass #daw #audio #vst #plugin #WaveNet #ML #AI #machine #learning
