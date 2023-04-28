@@ -2,7 +2,7 @@
 A Windows 10 batch file, that installs and runs the NAM model trainer (neural-amp-modeler) right into the GUI application. Fully automated. Custom one-time installation, no Conda required. Runs as a launcher afterwards. Portable install. New pyTorch. Enjoy!
 
 Usage:
-Double click "NAM-Runner.cmd". That's it.
+Double click "NAM-Runner.bat". That's it.
 
 Needs internet access and ~5.5GB of free drive space for the installed system.
 So it needs a few minutes more to install at the first run.
