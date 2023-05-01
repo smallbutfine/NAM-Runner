@@ -6,7 +6,7 @@ Double click "NAM-Runner.bat". That's it.
 
 Needs internet access and ~5.5GB of free drive space for the installed system.
 So it needs a few minutes more to install at the first run.
-In case anything goes wrong or the installation was corrupted, simply delete the folder "neural-amp-modeler-0.5.0" and run the batch file and let it install again.
+In case anything goes wrong or the installation was corrupted, simply delete the folder "neural-amp-modeler-0.5.2" and run the batch file and let it install again.
 
 What it does:
 The program does a download of NAM release 0.5/latest.
