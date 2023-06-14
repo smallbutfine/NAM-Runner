@@ -20,11 +20,11 @@ echo Downloading and extracting Python archive...
 curl -L https://github.com/winpython/winpython/releases/download/6.1.20230527/Winpython64-3.10.11.1dot.exe -o python.exe
 if exist %NAMNAME% rmdir /q %NAMNAME%
 python.exe -y
-call %~dp0\WPy64-31011\scripts\make_winpython_movable.bat
-move /Y "%~dp0\WPy64-31011\python-3.10.11.amd64" "%NAMNAME%"
+call %~dp0\WPy64-310111\scripts\make_winpython_movable.bat
+move /Y "%~dp0\WPy64-310111\python-3.10.11.amd64" "%NAMNAME%"
 echo Removing Python archive and unused files...
-del /f /s /q WPy64-31011 1>nul
-rmdir /s /q WPy64-31011
+del /f /s /q WPy64-310111 1>nul
+rmdir /s /q WPy64-310111
 del python.exe
 echo Done.
 cd %NAMNAME%
