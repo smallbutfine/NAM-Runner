@@ -5,7 +5,7 @@
 @echo off
 set NAMNAME=neural-amp-modeler-0.6.0
 set NAMVER=0.6.0
-if exist %~dp0\%NAMNAME%\installed.txt (
+if exist "%~dp0\%NAMNAME%\installed.txt" (
   echo NAM already installed!
   GOTO NAMISINSTALLED
   )
@@ -18,13 +18,13 @@ echo DON'T CLOSE THIS WINDOW UNTIL YOU ARE ASKED TO DO IT.
 echo.
 echo Downloading and extracting Python archive...
 curl -L https://github.com/winpython/winpython/releases/download/6.1.20230527/Winpython64-3.10.11.1dot.exe -o python.exe
-if exist %~dp0\%NAMNAME% rmdir /q %~dp0\%NAMNAME%
+if exist "%~dp0\%NAMNAME%" rmdir /q "%~dp0\%NAMNAME%"
 python.exe -y
 call %~dp0\WPy64-310111\scripts\make_winpython_movable.bat
 move /Y "%~dp0\WPy64-310111\python-3.10.11.amd64" "%NAMNAME%"
 echo Removing Python archive and unused files...
-del /f /s /q %~dp0\WPy64-310111 1>nul
-rmdir /s /q %~dp0\WPy64-310111
+del /f /s /q "%~dp0\WPy64-310111" 1>nul
+rmdir /s /q "%~dp0\WPy64-310111"
 del python.exe
 echo Done.
 cd %NAMNAME%
@@ -45,7 +45,7 @@ pip3 install scipy==1.10.1
 pip3 install torch torchvision torchaudio --force-reinstall --index-url https://download.pytorch.org/whl/cu118
 echo Done.
 echo.
->%~dp0%NAMNAME%\installed.txt echo done
+>"%~dp0%NAMNAME%\installed.txt" echo done
 echo NAM install done.
 echo.
 echo.
